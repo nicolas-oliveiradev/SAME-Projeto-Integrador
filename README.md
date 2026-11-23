@@ -56,5 +56,3 @@ Datas no padrão AAAA-MM-DD; tipo ENTRADA ou SAIDA; quantidades inteiras positiv
 - Não inclui autenticação, banco de dados, múltiplos depósitos nem integração de sistemas.
 - Ao subir CSV próprios, os arquivos são processados em diretório temporário e não substituem os dados de exemplo.
 
-## Comprovação
-Execute os nove testes. O painel requer instalação do Streamlit e Plotly (ambiente de testes de backend não equivale a teste visual da interface). Antes da apresentação, confirme a abertura do painel na máquina da equipe.
