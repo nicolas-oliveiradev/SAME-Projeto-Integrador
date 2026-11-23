@@ -40,7 +40,6 @@ Acesse http://localhost:8501 no navegador.
 - `analisador.py`: valida CSV, calcula saldo histórico, entradas, saídas, valores e alertas
 - `indicadores.py`: classes ABC por custo das saídas, agregações mensais e exportação CSV
 - `app.py`: interface Streamlit com filtros, indicadores, gráficos e importação de arquivos
-- `tests/`: nove casos automatizados de verificação
 
 ## Arquivos CSV
 `produtos.csv`: `produto_id,nome,categoria,custo_unitario,estoque_inicial,estoque_minimo`
