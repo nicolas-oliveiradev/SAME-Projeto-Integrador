@@ -7,22 +7,33 @@ Projeto Integrador de Laboratório de Programação, desenvolvido em Python. Dad
 - VS Code opcional
 
 ## Instalação no PowerShell
+
+Primeiramente, instale o Python 3.13 (caso ainda não esteja instalado):
+
 ```powershell
 winget install --id Python.Python.3.13 -e --source winget
+```
+
+Após a instalação, reinicie o terminal. Com o Git instalado, execute:
+
+```powershell
+git clone https://github.com/nicolas-oliveiradev/SAME-Projeto-Integrador.git
+cd SAME-Projeto-Integrador
 cd SAME
 python -m venv .venv
 .\.venv\Scripts\python.exe -m pip install -r requirements.txt
 ```
+
 Se `python` não for reconhecido, experimente `py -3.13 -m venv .venv`.
 
 ## Executar
+
 ```powershell
-.\.venv\Scripts\python.exe gerar_dados.py
-.\.venv\Scripts\python.exe analisador.py
 .\.venv\Scripts\python.exe -m unittest discover -s tests -v
 .\.venv\Scripts\python.exe -m streamlit run app.py
 ```
-No terminal surgirá um endereço local (normalmente http://localhost:8501). Abra-o no navegador.
+
+Acesse http://localhost:8501 no navegador.
 
 ## Módulos
 - `gerar_dados.py`: gera 150 produtos e 3127 movimentações sintéticas com semente 42
