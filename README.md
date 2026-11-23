@@ -9,6 +9,7 @@ Projeto Integrador de Laboratório de Programação, desenvolvido em Python. Dad
 ## Instalação no PowerShell
 ```powershell
 winget install --id Python.Python.3.13 -e --source winget
+cd SAME
 python -m venv .venv
 .\.venv\Scripts\python.exe -m pip install -r requirements.txt
 ```
