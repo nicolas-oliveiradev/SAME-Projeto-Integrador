@@ -17,8 +17,7 @@ winget install --id Python.Python.3.13 -e --source winget
 Após a instalação, reinicie o terminal. Com o Git instalado, execute:
 
 ```powershell
-git clone https://github.com/nicolas-oliveiradev/SAME-Projeto-Integrador.git
-cd SAME-Projeto-Integrador
+git clone https://github.com/nicolas-oliveiradev/SAME-Projeto-Integrador
 cd SAME
 python -m venv .venv
 .\.venv\Scripts\python.exe -m pip install -r requirements.txt
